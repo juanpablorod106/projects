@@ -30,6 +30,9 @@ function select_choice() {
     else {
         check_winner()
     }
+
+    document.getElementById('your-score').innerText = your_score
+    document.getElementById('opponent-score').innerText = opponent_score
 }
 
 function check_winner() {
@@ -40,16 +43,14 @@ function check_winner() {
         else if (opponent == 'paper') {
             opponent_score += 1
         }
-    }
-    if (you == 'scissors') {
+    } else if (you == 'scissors') {
         if (opponent == 'paper') {
             your_score += 1
         }
         else if (opponent == 'rock') {
             opponent_score += 1
         }
-    }
-    if (you == 'paper') {
+    } else if (you == 'paper') {
         if (opponent == 'rock') {
             your_score += 1
         }
