@@ -12,3 +12,8 @@ window.onload = function() {
         document.getElementById('choices').append(choice)
     }
 }
+
+function select_choice() {
+    you = this.id
+    document.getElementById('your-choice'). src = './imgs/' + you + '.png'
+}
