@@ -16,3 +16,14 @@ body {
 #your-choice {
     background-color: yellow;
 }
+
+#choices {
+    margin-top: 10px;
+    width: 240px;
+    height: 80px;
+    background-color: green;
+}
+#choices img {
+    width: 80px;
+    height: 80px;
+}
