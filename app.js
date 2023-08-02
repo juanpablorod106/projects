@@ -17,4 +17,8 @@ window.onload = function() {
 function select_choice() {
     you = this.id
     document.getElementById('your-choice'). src = './imgs/' + you + '.png'
+
+    // random for opponent
+    opponent = choices[Math.floor(Math.random() * 3)]
+    document.getElementById('opponent-choice'). src = './imgs/' + opponent + '.png'
 }
