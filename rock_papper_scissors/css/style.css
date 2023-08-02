@@ -9,19 +9,10 @@ body {
     margin-top: 5px;
 }
 
-#opponent-choice {
-    background-color: cyan;
-}
-
-#your-choice {
-    background-color: yellow;
-}
-
 #choices {
     margin: 10px auto 0;
     width: 240px;
     height: 80px;
-    background-color: green;
 }
 #choices img {
     width: 80px;
