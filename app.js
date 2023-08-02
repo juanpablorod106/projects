@@ -9,6 +9,7 @@ window.onload = function() {
         let choice = document.createElement('img')
         choice.id = choices[i]
         choice.src = './imgs/' + choices[i] + '.png'
+        choice.addEventListener('click', select_choice)
         document.getElementById('choices').append(choice)
     }
 }
